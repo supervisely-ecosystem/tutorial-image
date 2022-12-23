@@ -104,17 +104,13 @@ print(f"{len(image_np)} images downloaded in RGB NumPy matrix.")
 
 
 # Get image metadata from server
-img = api.image.get_info_by_id(image.id)
-meta = img.meta
-print(image.meta)
-
+image_info = api.image.get_info_by_id(image.id)
+meta = image_info.meta
+print(meta)
 
 # Update image metadata at server
-new_meta = {"Camera Make": "Canon", "Color Space": "sRGB"}
-
-api.image.update_meta
+new_meta = {"my-field-3": "my-value-3", "my-field-4": "my-value-4"}
 new_image_info = api.image.update_meta(id=image.id, meta=new_meta)
-
 print(new_image_info["meta"])
 
 

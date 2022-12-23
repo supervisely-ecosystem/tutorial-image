@@ -11,7 +11,7 @@ You will learn how to:
 3. [get information about images by id or name.](#get-information-about-images)
 4. [download images from Supervisely to local directory.](#download-images-to-local-directory)
 5. [download images from Supervisely as NumPy matrix.](#download-images-as-rgb-numpy-matrix)
-6. [get or update image metadata](#get-or-update-image-metadata)
+6. [get and update image metadata](#get-and-update-image-metadata)
 7. [remove images from Supervisely.](#remove-images-from-supervisely)
 
 📗 Everything you need to reproduce [this tutorial is on GitHub](https://github.com/supervisely-ecosystem/tutorial-image): source code and demo data.
@@ -189,11 +189,11 @@ print(f"Image successfully uploaded as NumPy matrix to Supervisely (ID: {np_imag
 
 ```python
 names_np = [f"np-{name}" for name in names]
-imgs_np = [sly.image.read(img_path) for img_path in paths]
+images_np = [sly.image.read(img_path) for img_path in paths]
 
-np_images_info = api.image.upload_nps(dataset.id, names_np, imgs_np)
+np_images_info = api.image.upload_nps(dataset.id, names_np, images_np)
 
-print(f"{len(imgs_np)} images successfully uploaded to platform as NumPy matrix")
+print(f"{len(images_np)} images successfully uploaded to platform as NumPy matrix")
 ```
 
 **Output:**
@@ -360,17 +360,17 @@ print(f"{len(image_np)} images downloaded in RGB NumPy matrix.")
 # 10 images downloaded in RGB NumPy matrix.
 ```
 
-## Get or update image metadata
+## Get and update image metadata
 
 ### Get image metadata from server
 
 **Source code:**
 
 ```python
-img = api.image.get_info_by_id(image.id)
-meta = img.meta
+image_info = api.image.get_info_by_id(image.id)
+meta = image_info.meta
 
-print(image.meta)
+print(meta)
 ```
 
 **Output:**
@@ -384,9 +384,8 @@ print(image.meta)
 **Source code:**
 
 ```python
-new_meta = {'Camera Make': 'Canon', 'Color Space': 'sRGB'}
+new_meta = {"my-field-3": "my-value-3", "my-field-4": "my-value-4"}
 
-api.image.update_meta
 new_image_info = api.image.update_meta(id=image.id, meta=new_meta)
 
 print(new_image_info["meta"])
@@ -395,8 +394,14 @@ print(new_image_info["meta"])
 **Output:**
 
 ```python
-# {'Camera Make': 'Canon', 'Color Space': 'sRGB'}
+# {'my-field-3': 'my-value-3', 'my-field-4': 'my-value-4'}
 ```
+
+### Get metadata in Image labeling toolbox
+
+You can also get image metadata in Image labeling toolbox interface
+
+<figure><img src="https://user-images.githubusercontent.com/79905215/209392054-4ceafec9-747b-4a26-8570-5ec52c0f23f0.gif" alt=""><figcaption></figcaption></figure>
 
 ## Remove images from Supervisely
 
@@ -409,13 +414,13 @@ Remove image from Supervisely by id
 ```python
 api.image.remove(image.id)
 
-print(f"Video (ID: {image.id}) successfully removed")
+print(f"Image (ID: {image.id}) successfully removed")
 ```
 
 **Output:**
 
 ```python
-# Video (ID: 17539453) successfully removed
+# Image (ID: 17539453) successfully removed
 ```
 
 ### Remove list of images.
