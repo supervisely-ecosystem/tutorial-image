@@ -35,12 +35,12 @@ print(f"Dataset ID: {dataset.id}")
 # Upload image from local directory to Supervisely platform.
 path = os.path.join(original_dir, "lemons.jpg")
 
-new_image = api.image.upload_path(
+image = api.image.upload_path(
     dataset.id,
     name="Lemons",
     path=path,
 )
-print(f'Image "{new_image.name}" uploaded to Supervisely platform with ID:{new_image.id}')
+print(f'Image "{image.name}" uploaded to Supervisely with ID:{image.id}')
 
 
 # Upload list of images from local directory to Supervisely platform.
@@ -70,12 +70,11 @@ print(f"{len(imgs_np)} images successfully uploaded to platform as NumPy matrix"
 
 
 # Get information about image from Supervisely by id.
-image_info = api.image.get_info_by_id(new_image.id)
+image_info = api.image.get_info_by_id(image.id)
 print(image_info)
 
 # Get information about image from Supervisely by name and dataset ID.
-image_name = get_file_name(new_image.name)
-print(image_name)
+image_name = get_file_name(image.name)
 image_info_by_name = api.image.get_info_by_name(dataset.id, image_name)
 print(f"image name - {image_info_by_name.name}")
 
@@ -91,9 +90,9 @@ print(f"Image has been successfully downloaded to '{save_path}'")
 
 
 # Download list of images from Supervisely platform to local directory by ids.
-image_ids = [image.id for image in image_info_list]
-image_names = [image.name for image in image_info_list]
-save_paths = [os.path.join(result_dir, image_name) for image_name in image_names]
+image_ids = [img.id for img in image_info_list]
+image_names = [img.name for img in image_info_list]
+save_paths = [os.path.join(result_dir, img_name) for img_name in image_names]
 
 api.image.download_paths(dataset.id, image_ids, save_paths)
 print(f"{len(image_info_list)} images has been successfully downloaded")
@@ -101,15 +100,15 @@ print(f"{len(image_info_list)} images has been successfully downloaded")
 
 # You can also download image frame as RGB NumPy matrix.
 image_np = api.image.download_np(image_info.id)
-print(f"image downloaded as RGB NumPy matrix. Frame shape: {image_np.shape}")
+print(f"image downloaded as RGB NumPy matrix. Image shape: {image_np.shape}")
 
 # Download multiple images as RGB NumPy matrix from Supervisely platform.
 image_np = api.image.download_nps(dataset.id, image_ids)
 print(f"{len(image_np)} images downloaded in RGB NumPy matrix.")
 
 # Remove video from Supervisely platform by id
-api.video.remove(new_image.id)
-print(f"Video (ID: {new_image.id}) successfully removed")
+api.video.remove(image.id)
+print(f"Video (ID: {image.id}) successfully removed")
 
 
 # Remove list of videos from Supervisely platform by ids
