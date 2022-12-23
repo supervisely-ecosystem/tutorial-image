@@ -118,12 +118,12 @@ new_image_info = api.image.update_meta(id=image.id, meta=new_meta)
 print(new_image_info["meta"])
 
 
-# Remove video from Supervisely platform by id
-api.video.remove(image.id)
+# Remove image from Supervisely platform by id
+api.image.remove(image.id)
 print(f"Video (ID: {image.id}) successfully removed")
 
 
-# Remove list of videos from Supervisely platform by ids
+# Remove list of images from Supervisely platform by ids
 images_to_remove = api.image.get_list(dataset.id)
 remove_ids = [img.id for img in images_to_remove]
 api.image.remove_batch(remove_ids)
