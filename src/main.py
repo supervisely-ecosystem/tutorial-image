@@ -2,6 +2,7 @@ import os
 from shutil import rmtree
 
 from dotenv import load_dotenv
+from pprint import pprint
 import supervisely as sly
 from supervisely.io.fs import get_file_name
 
@@ -33,12 +34,9 @@ print(f"Dataset ID: {dataset.id}")
 
 # Upload image from local directory to Supervisely platform.
 path = os.path.join(original_dir, "lemons.jpg")
+meta = {"my-field-1": "my-value-1", "my-field-2": "my-value-2"}
 
-image = api.image.upload_path(
-    dataset.id,
-    name="Lemons",
-    path=path,
-)
+image = api.image.upload_path(dataset.id, name="Lemons", path=path, meta=meta)
 print(f'Image "{image.name}" uploaded to Supervisely with ID:{image.id}')
 
 
@@ -104,6 +102,22 @@ print(f"image downloaded as RGB NumPy matrix. Image shape: {image_np.shape}")
 # Download multiple images as RGB NumPy matrix from Supervisely platform.
 image_np = api.image.download_nps(dataset.id, image_ids)
 print(f"{len(image_np)} images downloaded in RGB NumPy matrix.")
+
+
+# Get image metadata from server
+img = api.image.get_info_by_id(image.id)
+meta = img.meta
+print(image.meta)
+
+
+# Update image metadata at server
+new_meta = {"Camera Make": "Canon", "Color Space": "sRGB"}
+
+api.image.update_meta
+new_image_info = api.image.update_meta(id=image.id, meta=new_meta)
+
+pprint(new_image_info["meta"])
+
 
 # Remove video from Supervisely platform by id
 api.video.remove(image.id)
