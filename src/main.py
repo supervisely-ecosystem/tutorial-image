@@ -2,9 +2,8 @@ import os
 from shutil import rmtree
 
 from dotenv import load_dotenv
-from pprint import pprint
 import supervisely as sly
-from supervisely.io.fs import get_file_ext, get_file_name
+from supervisely.io.fs import get_file_name
 
 
 load_dotenv("local.env")

@@ -319,7 +319,7 @@ print(f"{len(image_info_list)} images has been successfully downloaded.")
 # 10 images has been successfully downloaded.
 ```
 
-<figure><img src="https://user-images.githubusercontent.com/79905215/209367810-221811a5-e959-4318-86ed-855a9691477a.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/79905215/209369780-6a9dacf1-db64-4577-bedd-432a90b11f40.png" alt=""><figcaption></figcaption></figure>
 
 ## 5 Download images as RGB NumPy matrix
 
