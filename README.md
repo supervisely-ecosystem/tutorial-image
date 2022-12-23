@@ -132,7 +132,7 @@ print(f'Image "{image.name}" uploaded to Supervisely with ID:{image.id}')
 # Image "Lemons.jpeg" uploaded to Supervisely platform with ID:17539453
 ```
 
-<figure><img src="https://user-images.githubusercontent.com/79905215/209328524-3887105e-e694-493c-9a51-91d44d6ce636.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/79905215/209367792-2bd43e87-453f-4cba-9f41-9648a964658d.png" alt=""><figcaption></figcaption></figure>
 
 ### Upload list of images.
 
@@ -160,7 +160,7 @@ print(f"{len(upload_info)} images successfully uploaded to Supervisely platform"
 # 4 images successfully uploaded to Supervisely platform
 ```
 
-<figure><img src="https://user-images.githubusercontent.com/79905215/209328566-3e8c95c8-9c0d-4b4c-8cdd-fd11d0cee9bd.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/79905215/209367771-ff6d5852-f153-4529-9092-f58bcb45a3cc.png" alt=""><figcaption></figcaption></figure>
 
 ## 2 Upload images as NumPy matrix
 
@@ -319,7 +319,7 @@ print(f"{len(image_info_list)} images has been successfully downloaded.")
 # 10 images has been successfully downloaded.
 ```
 
-<figure><img src="https://user-images.githubusercontent.com/79905215/209328639-f2456969-c171-49ec-b880-590a6fc9de81.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://user-images.githubusercontent.com/79905215/209367810-221811a5-e959-4318-86ed-855a9691477a.png" alt=""><figcaption></figcaption></figure>
 
 ## 5 Download images as RGB NumPy matrix
 
