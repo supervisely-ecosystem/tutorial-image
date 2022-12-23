@@ -2,7 +2,6 @@ import os
 from shutil import rmtree
 
 from dotenv import load_dotenv
-from pprint import pprint
 import supervisely as sly
 from supervisely.io.fs import get_file_name
 
@@ -116,7 +115,7 @@ new_meta = {"Camera Make": "Canon", "Color Space": "sRGB"}
 api.image.update_meta
 new_image_info = api.image.update_meta(id=image.id, meta=new_meta)
 
-pprint(new_image_info["meta"])
+print(new_image_info["meta"])
 
 
 # Remove video from Supervisely platform by id

@@ -391,7 +391,7 @@ new_meta = {'Camera Make': 'Canon', 'Color Space': 'sRGB'}
 api.image.update_meta
 new_image_info = api.image.update_meta(id=image.id, meta=new_meta)
 
-pprint(new_image_info["meta"])
+print(new_image_info["meta"])
 ```
 
 **Output:**
