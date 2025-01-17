@@ -125,7 +125,7 @@ remove_ids = [img.id for img in images_to_remove]
 api.image.remove_batch(remove_ids)
 print(f"{len(remove_ids)} images successfully removed.")
 
-# Upload list of images with added custom sort parameter
+# Upload list of images with added custom sorting parameter
 original_dir = "src/images/original"
 names = ["Oranges 1", "Oranges 2"]
 paths = [os.path.join(original_dir, "oranges-1.jpg"), os.path.join(original_dir, "oranges-2.jpg")]
@@ -136,7 +136,7 @@ with api.image.add_custom_sort(key="my-key"):
 for i in image_infos:
     print(f"{i.name}: {i.meta}")
 
-# Upload whole images project in Supervisely format with added custom sort parameter
+# Upload whole images project in Supervisely format with added custom sorting parameter
 from supervisely.project.upload import upload
 
 project_dir = "src/images_project"
