@@ -1,0 +1,249 @@
+{
+    "description": "",
+    "size": {
+        "height": 480,
+        "width": 640
+    },
+    "tags": [],
+    "objects": [
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    192,
+                    64
+                ],
+                "data": "eJwBJAHb/olQTkcNChoKAAAADUlIRFIAAABXAAAAVgEDAAAAgFqYigAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAADMSURBVHic3dMxDsMgDAVQqgwZOQJHycUqwdF6lByBMQPCDWB/x6hRO5ehekPwt6jtXDvV4UQ6hAsRJfZ2emefpKKfEA2v3a/u0J1xlbhq7K4ow5cXdkKZUUjckj07o/woKi6IGo7sqlE97OIHnNBCC756hXdjD2fjAB/G20cX4/jVVdv/W//yDuXmDe07Bzgbe3i/+X+vM5DMnKinuZLm6jSH4mOaW2kiT3MuwW3+JSzp7oxl84iSC0V3k/duXOAFDkS62FFWtp1n/30DQWbl0UFbkoUAAAAASUVORK5CYILSMnzp"
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:51:04.491Z",
+            "createdAt": "2025-01-16T23:50:57.250Z",
+            "id": 3817901,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        191.74661328824803,
+                        62.93656014504509
+                    ],
+                    [
+                        281.7766856390172,
+                        150.2035352718248
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        236,
+                        106
+                    ],
+                    [
+                        246.71234167082292,
+                        124.59257518026988
+                    ]
+                ]
+            }
+        },
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    324,
+                    123
+                ],
+                "data": "eJzrDPBz5+WS4mJgYOD19HAJAtKBIMzIDCQnON4oBVJsAT4hrkD6////S2/OvwtkMZYE+QUzODy7kQbkHPJ0cQypmHP08kbBwwo8rAE1IkuSWdw+ZhjMck9smaJXo8G4MP/Jg91LuHrjE2tf5iT62PIrHxdKLVSwOvLF7rm2i/TtcPub2aX6HVeXFio6bUzdnnT8XMdLx8a9ypva3comZqqEzLmw6mbX9oOSudGbL8btyWb/2Fi45fTexTPqSoOW7b99p8ruv7jerddn2v/9W7z3x6f9y/6bv66NSPObvrdLwv19ooP23u2P7W4bBznZv2Nlf5vTfsku0EjjgCzPjqy1zO/WFP6pYPxfU/XwZLR4GNA3DJ6ufi7rnBKaADDgeL8="
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:51:09.551Z",
+            "createdAt": "2025-01-16T23:51:09.551Z",
+            "id": 3817902,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        322.5271394398918,
+                        121.74691294787488
+                    ],
+                    [
+                        407.81878693009423,
+                        205.2196717647946
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        365,
+                        163
+                    ]
+                ]
+            }
+        },
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    474,
+                    70
+                ],
+                "data": "eJwBMAHP/olQTkcNChoKAAAADUlIRFIAAABYAAAAWQEDAAAAgAdx0gAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAADYSURBVHicrdRRDoMgDAZgjA8+egSP4sWWjKNxFI7AIw+GztbyWzdIZjaeviiUCq3O8Xg4jCeVypGIonrdvamJh8eUOmkSJ/EizlhKGpWOwRzUHmGIAsIcntURIQ+v6iQJEzazVnLWg/HYcjHeE5rgYByRDm/cdr54aXr7wgWfyO49b5twDP80dXwvTvkph9XEuefeOefO3SVz78nURrwYdcXFCvuzDtlIwtRwMbW9mZrPpheS6ZFoeie4s9D9e3/NCFmDZtOn6aN/ZXFt+PGcIi8CfgqLTHkBcWH4bEMHy2UAAAAASUVORK5CYILsp4Mc"
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:51:14.367Z",
+            "createdAt": "2025-01-16T23:51:14.367Z",
+            "id": 3817903,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        473.209050005916,
+                        68.62788460983512
+                    ],
+                    [
+                        566.0821772730253,
+                        160.63763012393977
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        519,
+                        114
+                    ]
+                ]
+            }
+        },
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    375,
+                    380
+                ],
+                "data": "eJwBJgHZ/olQTkcNChoKAAAADUlIRFIAAABXAAAAVQEDAAAABs7qJAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAADOSURBVHicrdPBDYMwDAVQEIccGSGjMBqMxigZgWMOKG6wk8+3RKWqLacnlHwHYg9DfVZJQ3tGkbM7iMjeHKuP5sq+aLws93KRTT2rLXVR2+ZVnRHTgixGyuXJrEGheUekBcXmjHjvE6UsVB4sKKvF2BO8Owc4Oc/w4Rzh7LzA50de4fI3y9fm8/xi/g/s460jnJznR/N9sTfn+36pH4o3Pp77ivuNezKRuW+5n6nPC/U/zwXPS8IIuvkqNndTP1nf3Id5wXKtnPtc11R9/QLndsjlTnwA+gAAAABJRU5ErkJggoQUgUE="
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:51:18.184Z",
+            "createdAt": "2025-01-16T23:51:18.184Z",
+            "id": 3817904,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        373.7021279340132,
+                        375.95940570849405
+                    ],
+                    [
+                        462.7845153126691,
+                        468.9177053000637
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        418,
+                        422
+                    ]
+                ]
+            }
+        },
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    27,
+                    170
+                ],
+                "data": "eJwBWgGl/olQTkcNChoKAAAADUlIRFIAAABPAAAARQEDAAAAMWEpowAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAECSURBVHicbdLNacUwDAdwBT/qHgpeIDSLlOdV3hg9PEigA3QldxOP4KMPJqolWZEL9elHiOSPvwD6uoMuj1m5Yx1yiG0wIJ6DEREHu/DQX3G0CMTC3IzRuBN5j4UkezijZ55XL+FmjIO30auXhT9E5aG8+YvBJWX8ylq2/yj7PSbCxfIw2tdqbMbTiBOPwW+jNzqi3G2hsiid/ueufSc2iOfEVxjH2tqqjx4m1lWaVfBl1YB8ftfYfLpLABnc8SGxJHiBp4QF/f2fHGETUuNK/ORTFmLh4GgwlszJEl3m6NNgr6MhCplTJm6JswelFx48JzwBPD0yF8x2EYoxG3lM3+AX5iB5RpOpmGYAAAAASUVORK5CYIKTtJOs"
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:51:22.192Z",
+            "createdAt": "2025-01-16T23:51:22.192Z",
+            "id": 3817905,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        24.00637322418322,
+                        163.48329235633477
+                    ],
+                    [
+                        108.35033574227228,
+                        248.85315932818443
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        66,
+                        206
+                    ]
+                ]
+            }
+        },
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    140,
+                    141
+                ],
+                "data": "eJwBJAHb/olQTkcNChoKAAAADUlIRFIAAABQAAAAUgEDAAAA+RfB5QAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAADMSURBVHicpdM9EoMgEAVgHAvLtOk8CkeTo3mTeARKCscXWPcHFU0Rq28UdhEezuXn7eTpkYQjIASwyHcg7nwZ81CZN2WupC4Lm85iDoXQAkCQAsBc6ImLMUpZ7kGiat3OMk+YuNk+YmDmJsrIfWmwcuUlnOmfmW44XflJDleiehtbxP9sdqu5/qb8Rd7Vir7JsUHYVt9RT2ir2RvljEu+GoxOl7Y4Xc+Ro1E6zxaTYDk6Bo1LJItqtADPFutwyj0tqLojQS/RJlfLU6svsU9xwjvFxq8AAAAASUVORK5CYILE9Hmi"
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:51:26.616Z",
+            "createdAt": "2025-01-16T23:51:26.616Z",
+            "id": 3817906,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        132.9901450172197,
+                        138.82088634224485
+                    ],
+                    [
+                        229.65401217278242,
+                        225.13930739155953
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        181,
+                        181
+                    ]
+                ]
+            }
+        }
+    ],
+    "customBigData": {}
+}

@@ -1,0 +1,55 @@
+{
+    "description": "",
+    "size": {
+        "height": 427,
+        "width": 640
+    },
+    "tags": [],
+    "objects": [
+        {
+            "classTitle": "grapes",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    212,
+                    38
+                ],
+                "data": "eJwB9wMI/IlQTkcNChoKAAAADUlIRFIAAADqAAABYgEDAAAAws7WDAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAOfSURBVHic7drNjtsgEAdw0kj1paofwY/Co8GblVUfoK9ATz2WVS8+uKZ2/AnD/LGXbLar1odotb+YzAwwjiKEmC7pBbiu3jvAtfcdYOl9D9gPl2b1MrJFkaHY6pFblpuR+dDlyHzoGVYj82X1R1gzejnEhuHrIbYv42pil+VLqvAbXzOcmtWZhzsrwEPZFBjcuyq5JhZmlkwNeXdzaj2qFXVi6Mt2r8WBpW5vdvyLstxxYjkqnxq9WXLY6xrcdXnnJWA3c738eQ14qZpcKlQFvMTmlz1Xh7z7xBSb7RN1XJU19Gp9pwy53SppE9xtlXSkaAG3CR7SGf6v1nf66BrDQjxkatQ8UFTyMdvhc1uen8Zhp3TIjAzX1/E+xfKP8YXnfZSYNZnuv4kzkb8elxU1Nd+nmKy17eoPsGK5K+I2sQVjblh2ie4QM78eLG1cJ9jQpklZcawFTFwLmPjafI/zbzx4hneXwZEfYlXEnM6dHzO/TcrY4dXScvzl9toVcY/XeYb9AW541nAD31jxbGDrGYuO+prLMuqpDvWO25Qh7mBVxqJnWAL2WVaIdRGbHCP9Z1nnWCHOTCjmPssScJflBnCLObPH8oy+ztlpf/cMm6k7cKyLv/VIlh1umnZ+PjOhadyRxfw0QHcPsbXp8KZnaOW1Aszmrmdl2u7CTNs9yEzqC9dpXgJvMMuk9gdZJbnDvP5KkI7M4Zpm2GI2b8iZ0DJcVpaFmZpnpuQxrIpYviY3mGvM+w38DfNPyunucJvQz+GEuwQLnj+GVf2+sV1ZptiM8iGsS8xRXZ431uvdycw2Ts642FhyzE5pj3n/62ZDucXs8OAGcvBjO+UWs8UsILeYXcDqJAeR0QbgHsa0L2a4/c+lTKckw+4N2eLEMmww6z3Tthcw/bon7sf1WQ5Ca86yeU22b8junbC8M9siNntWj2VdxKKEe8wdZofZnmF5koOa0rWW4aCmtLeIM0z6Wsikp4ZMOvIpJg8LjTksC5mTc9xgriO2uC4Rr4k/34NdEbcMz1d09CBOrBdXzJm7z3Ac2iM5XmwZjg9sqFMcn+c4xzZieU82ETch6yKONNpk5GBU2JvIGZlwNZEzMuGEx3lFHAceTnjieM6Wma0c5S0zS3GfGYlr+vBOIv60jJ9m8f5Zv4znujI6zzl7AC/DglsLx1glV2nIDrN9KUvMDZqRueia5QoW7bZN0WFPWJVb6A5wgwIfY0MHSQePxv4DIHrXi4uEZaQAAAAASUVORK5CYIIZBvnU"
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:50:24.866Z",
+            "createdAt": "2025-01-16T23:50:15.594Z",
+            "id": 3817899,
+            "classId": 49444,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        211.8092380327682,
+                        31.516595918094254
+                    ],
+                    [
+                        451.23394886244114,
+                        396.8897457859706
+                    ]
+                ],
+                "visible": true,
+                "negative": [
+                    [
+                        342.4811752813573,
+                        47.54913598158075
+                    ]
+                ],
+                "positive": [
+                    [
+                        330.6010929730387,
+                        214
+                    ]
+                ]
+            }
+        }
+    ],
+    "customBigData": {}
+}

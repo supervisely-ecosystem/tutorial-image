@@ -1,0 +1,55 @@
+{
+    "description": "",
+    "size": {
+        "height": 427,
+        "width": 640
+    },
+    "tags": [],
+    "objects": [
+        {
+            "classTitle": "grapes",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    295,
+                    65
+                ],
+                "data": "eJwBzQMy/IlQTkcNChoKAAAADUlIRFIAAACvAAABaQEDAAAA0JrqKwAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAN1SURBVHic5dlBbt0gEAZgW67kJUfgIpU4GtykRym7LnsF1E2XRd3EUi1PzXvYD4Yf2yTvdVNvonxyYJgZeAnpuvi4Dj3SQ1YzZCKkPZEFPBChOQURmlMSoTkVwTkjD0vJJnzJ49EbZxOv8d0C15SNIgK7sNbwM9kYK/eUL5bu/KnPVjVEXtY5pwePN/aCVk4WK288r1GrNBRF8XEqzYHe2Ms0wk1pxrzIJPB+Z/qaVGmg9Nl5zHhfpsAsP8B7rjRmusL+mPtL7Jq4MsiEecFMFTaYt1CusX8Xa7yef8iVSCrsMFvMpom7Fl4wz028D0KQK+0zMI7LGRnHnAiCryvODrNHKdmKyTVGfpUJLTJGCNg2sWti/2IGi5/aWeOxFWaJWWDm7RM7ony7wpZP+WZDXIbzj1uKimb7HXgpm63rvsdmy9h0JnZsFoTp7Wewdczg8I7yeEdNmBe80eJOE5ynI5acZ8z0FC6qcM7qg2yb2B007MpvmH+CQcRV3rqe8YL5tsy1Ib6hCPUsGN+KLCzn2EGcqcIGl9NidsWmOmKPeTpizXlu5/KA3DKOWEIuwrtzqYHBiRw4TviNscAMZgysMQNdGQWy5qTC/PCJXOaJQnXaWCD2TexAaSi0puI/H94zRaZ8SFKZQN8plNewkqnkkCVXcqiXKasQN18Rc4UNZov5vsto0S3MH3/E+iIf7mDJed5OHgl4pEVkfE/hQBPijizk4mDbWD6DVc4Gv/1/scj5pAz5IbGccH4u7X/Y5KfY40okY4/ZYt41q3FxrcLHSDm99xGnnN5DjZjT1ZvEK6wxJ3MmcadzppwM7lLW72SPx34/J7Wfznl4MqeRjE9m90K2L2TTxF0LZ1epQxM/GmK+wF2FNWa18ZSxDPSrYIHf3pfpc54V4sFB7kMsf6i8HNdlzRI2jEEVHsyuxbccVnhiPKCwd+bxDTC8mKsXsi5YHHBlkC8Wvl1jh8cu/nEhYLq3toKRlImNzOc8Zl7LEVd+24IVNjn3x2wv8daxPHCNu01hlphHzD3mOHiFeQpjhAXjhB/vqUp5OAvM8pD5cioZrHClDG1M72HWhPt57zHPmPNRHh8xBrNtYofZY54wz5jbPjHplWzOuT9le85dG2vMqokF5hHzaUeki08GaeNUkwCbeGniGXPltx+P2WW8L8eG7/4CpG//dxLgorUAAAAASUVORK5CYII5Z9Xu"
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:50:36.561Z",
+            "createdAt": "2025-01-16T23:50:36.561Z",
+            "id": 3817900,
+            "classId": 49444,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        289.36935562547916,
+                        62.737858146989
+                    ],
+                    [
+                        473.99615728638884,
+                        427
+                    ]
+                ],
+                "visible": true,
+                "negative": [
+                    [
+                        344.1672647942423,
+                        338.66631081857224
+                    ]
+                ],
+                "positive": [
+                    [
+                        381,
+                        244
+                    ]
+                ]
+            }
+        }
+    ],
+    "customBigData": {}
+}
