@@ -1,0 +1,50 @@
+{
+    "description": "",
+    "size": {
+        "height": 480,
+        "width": 640
+    },
+    "tags": [],
+    "objects": [
+        {
+            "classTitle": "orange",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    227,
+                    171
+                ],
+                "data": "eJwBDwLw/YlQTkcNChoKAAAADUlIRFIAAAChAAAApAEDAAAAxVLcRgAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAAG3SURBVHictdcxkusgDAZgPC5ccgSOwrW2g6P5Jsu7wBvKFJ5oZ40xEvrJ2rMbunwF/ErsSBjT1ocBa9oU+WSc0pm+1/9O7a70GeUGRekhNBxKK9eKxE+cTiW289w0NV2asvNs0w3qs6lrSroIGYJrqyMwbdEYUoZ6Bp64noFnrmfg5WclrLUMK7SW4YTWMjzUILQWR9d1kvpAcau6G+qhBqiEdIa6QLVQHVQPNUAlpBPUPljRPljRPljRPkLRHnftv5uiKsKuKsKuKsIL9W/QfFPDRU1v0hX9FC9U7xCHqne4o/AhuaPPX+t2Q8cPtdZsLNBkQgQ6EdIF6WqheqT/CCnd1XBZ0VPyB/pEb9bbdBupu6qPkVqteaT6H3GgaaT6n3agK2gMI41Q776y4ZpuqOkVdb2+6E621ww1wV6YUEMv847SCHssVoO69DGJBanHLOel4mElF3WgCFXyWrQrOUIt2JVcB0dZ3Dl6orhdcamqKGOtKgLHqiJaRRGtDeY8GhvtmeamLNra1IEIPBq7BbAQ/N7SQrDDRpcZD7Ztx8k7VT0uCa3VRaleJzi3MP3yXQnHcvzDFzkVzbWHvbg3AAAAAElFTkSuQmCCJ5nw0g=="
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:50:01.992Z",
+            "createdAt": "2025-01-16T23:50:01.992Z",
+            "id": 3817898,
+            "classId": 49442,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        221.1248474237622,
+                        167.27750866619476
+                    ],
+                    [
+                        398.3419372089606,
+                        338.0172426098942
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        309,
+                        252
+                    ]
+                ]
+            }
+        }
+    ],
+    "customBigData": {}
+}

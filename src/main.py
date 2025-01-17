@@ -124,3 +124,48 @@ images_to_remove = api.image.get_list(dataset.id)
 remove_ids = [img.id for img in images_to_remove]
 api.image.remove_batch(remove_ids)
 print(f"{len(remove_ids)} images successfully removed.")
+
+# Upload list of images with added custom sort parameter
+original_dir = "src/images/original"
+names = ["Oranges 1", "Oranges 2"]
+paths = [os.path.join(original_dir, "oranges-1.jpg"), os.path.join(original_dir, "oranges-2.jpg")]
+metas = [{"key-1": "a", "my-key": "b"}, {"key-1": "c", "my-key": "f"}]
+
+with api.image.add_custom_sort(key="my-key"):
+    image_infos = api.image.upload_paths(dataset.id, names=names, paths=paths, metas=metas)
+for i in image_infos:
+    print(f"{i.name}: {i.meta}")
+
+# Upload whole images project in Supervisely format with added custom sort parameter
+from supervisely.project.upload import upload
+
+project_dir = "src/images_project"
+project_name = "Project with Sorting"
+
+with api.image.add_custom_sort(key="my-key"):
+    upload(project_dir, api, workspace_id, project_name)
+
+project_info = api.project.get_info_by_name(workspace_id, project_name)
+dataset_info = api.dataset.get_list(project_info.id)[0]
+images_infos = api.image.get_list(dataset_info.id)
+for i in images_infos:
+    print(f"{i.name}: {i.meta}")
+
+# 1. Add parameter to meta dict and update meta on server
+meta = {"key-1": "a", "my-key": "b"}
+new_meta = api.image.update_custom_sort(meta, "sort-value")
+new_image_info = api.image.update_meta(id=images_infos[0].id, meta=new_meta)
+print(new_image_info["meta"])
+
+# 2. Set directly on server
+api.image.set_custom_sort(new_image_info["id"], "new-sort-value")
+updated_image_info = api.image.get_info_by_id(new_image_info["id"])
+print(updated_image_info.meta)
+
+# 3. Set directly on server in bulk
+image_ids = [image.id for image in images_infos]
+sort_values = ["1st", "2nd", "3rd", "4th", "5th"]
+api.image.set_custom_sort_bulk(image_ids, sort_values)
+images_infos = api.image.get_list(dataset_info.id)
+for i in images_infos:
+    print(f"{i.name}: {i.meta}")

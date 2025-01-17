@@ -1,0 +1,42 @@
+{
+    "classes": [
+        {
+            "title": "grapes",
+            "description": "",
+            "shape": "bitmap",
+            "color": "#D6829B",
+            "geometry_config": {},
+            "id": 49444,
+            "hotkey": ""
+        },
+        {
+            "title": "lemon",
+            "description": "",
+            "shape": "bitmap",
+            "color": "#F8E71C",
+            "geometry_config": {},
+            "id": 49443,
+            "hotkey": ""
+        },
+        {
+            "title": "orange",
+            "description": "",
+            "shape": "bitmap",
+            "color": "#FFC705",
+            "geometry_config": {},
+            "id": 49442,
+            "hotkey": ""
+        }
+    ],
+    "tags": [],
+    "projectType": "images",
+    "projectSettings": {
+        "multiView": {
+            "enabled": false,
+            "tagName": null,
+            "tagId": null,
+            "isSynced": false
+        },
+        "labelingInterface": "default"
+    }
+}

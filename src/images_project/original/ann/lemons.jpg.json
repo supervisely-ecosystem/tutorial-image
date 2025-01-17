@@ -1,0 +1,50 @@
+{
+    "description": "",
+    "size": {
+        "height": 427,
+        "width": 640
+    },
+    "tags": [],
+    "objects": [
+        {
+            "classTitle": "lemon",
+            "description": "",
+            "tags": [],
+            "bitmap": {
+                "origin": [
+                    221,
+                    130
+                ],
+                "data": "eJwBIwPc/IlQTkcNChoKAAAADUlIRFIAAACuAAAAtAEDAAAAN4+FUAAAAAZQTFRFAAAA////pdmf3QAAAAF0Uk5TAEDm2GYAAALLSURBVHicvdc9zpwwEAZgVhSUPkAKjuKj4aM5ykXcpXXpAq0DeP49K31fIoVq9xHreccYLywLHeFcvOPo1dHQ+3vWrV9Htrre2pvl+LAdZZzce9K8Axcbbhw64gvU1Nx8Dj5Hnzvx5qS+OIjkG/Oe52bus0VDVLHXTRTtgnm2XswldCfIzTQ4B+k58mxh622JP0WjmG+MRzUj6VNG5zvxh0nlq4teFcAZq1SZ73fCKk3me356UBH4ZePh3iJf4VmQnMXkDD7oI0xOom5OOTmJ6hQ5OTxglpNTaEA5OYMDZcKLV5FHRbx4DetUdZVoilWQwZEagCCjUtTtYq4DK/IqAm4qyBiTrkcgLoN1kCfvy84IM08wMS0vsW7b8+00FW/ekHfLzVQErrp15GKC3Bwgtriv7mIBYq8+i3x3IzvwPrHNd8sOvR+S08WnzSf4ZTgOXr/CGTn4vE/cptjX5AEfho+HdT7idea75Dbze6p4XcbjmcHucLJjDM6mR+LdcHvYpL75jvPD5Xq43KwOno+PPI37Nxz/nc9vspvkf/Ivl98vlwtxlLy4XJl3OQYu6KY4MQfWRutccRbMa/jNt6fk4rO4awWf4q5tfOsVcdcKTj7LPYhmQW9NVf+R4ZdCn7Lcg5ifMTbihTvnrSkjN5+r+iMg1n89GRtLaqNFhgcEwZF7pC0hqWcSyTsHIcasRTVJVzWpbmgLXFQ3J8zaW3ODqYeHoyj5mLjCl6q5wIgjH+1EBWJl3U2GJtLU+8NjDL1kVuSg+KUe3rg5ZMwHX4+mrw1y1Yw9m27gLHjm1jfAFUxfBPPCQpwUY+yulPcKn83bjekGj+7yh7cY4qp49Zn2hOJzVvyh9+91g6yD6JU2sw4ibyeHTZDVPZn3Yn1sXkHk6R14c+YDuVodPJ38JJlPFs/KE89j3FPlvHIv8IDlsKdLdHJcx15cDvLLHyok5tAIBlKNAAAAAElFTkSuQmCCtXKD4g=="
+            },
+            "shape": "bitmap",
+            "geometryType": "bitmap",
+            "labelerLogin": "GoldenAnpu",
+            "updatedAt": "2025-01-16T23:49:45.006Z",
+            "createdAt": "2025-01-16T23:49:40.771Z",
+            "id": 3817897,
+            "classId": 49443,
+            "smartToolInput": {
+                "crop": [
+                    [
+                        214.33837230209576,
+                        128.55565419709143
+                    ],
+                    [
+                        399.80821871944795,
+                        313.35177387622514
+                    ]
+                ],
+                "visible": true,
+                "negative": [],
+                "positive": [
+                    [
+                        307,
+                        220
+                    ]
+                ]
+            }
+        }
+    ],
+    "customBigData": {}
+}
